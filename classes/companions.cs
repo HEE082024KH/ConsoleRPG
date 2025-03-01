@@ -1,3 +1,5 @@
+namespace ConsoleRPG;
+
 public class Companion
 {
   public string Name { get; set; }
