@@ -1,4 +1,4 @@
-namespace ConsoleRPG;
+namespace ConsoleRPG.classes;
 
 public class Character(
   string name,

@@ -1,3 +1,5 @@
+namespace ConsoleRPG.classes;
+
 public class Item(string name, int bValue, int sValue = 0, int amount = 0, bool exist = false, bool trade = false)
 {
   public string Name { get; } = name;
