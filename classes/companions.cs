@@ -5,6 +5,7 @@ public class Companion(string name, string level, List<Trait> traits, List<Abili
   public string Name { get; set; } = name;
   public string Level { get; set; } = level;
   public List<Trait> Traits { get; set; } = new();
+  public List<Stat> Stats { get; set; } = new();
   public List<Ability> AbilitiesCompanion { get; set; } = new();
 }
 
