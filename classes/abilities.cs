@@ -11,7 +11,11 @@ public class Ability(string name, string description, string type, int uses, int
 
 public class AbilitiesList
 {
-  public List<Ability> Abilities =
+  public List<Ability> AbilitiesCompanion =
+  [
+  ];
+
+  public List<Ability> AbilitiesCharacter =
   [
   ];
 }

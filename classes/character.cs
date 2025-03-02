@@ -13,5 +13,5 @@ public class Character(
   public List<Item> Inventory { get; set; } = new();
   public List<Companion> Companions { get; set; } = new();
   public List<Achievement> Achievements { get; set; } = new();
-  public List<Ability> Abilities { get; set; } = new();
+  public List<Ability> AbilitiesCharacter { get; set; } = new();
 }
