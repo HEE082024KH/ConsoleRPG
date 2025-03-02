@@ -2,14 +2,18 @@ namespace ConsoleRPG.classes;
 
 public class Character(
   string name,
-  int money,
   List<Item> inventory,
   List<Companion> companions,
-  List<Achievement> achievements)
+  List<Achievement> achievements,
+  int xp = 0,
+  int level = 1,
+  int money = 500)
 {
-  public required string Name { get; set; }
-  public required int Money { get; set; } = 0;
-  public List<Item> Inventory { get; set; } = new();
-  public List<Companion> Companions { get; set; } = new();
-  public List<Achievement> Achievements { get; set; } = new();
+  public required string Name { get; set; } = name;
+  public int Xp { get; set; } = xp;
+  public int Level { get; set; } = level;
+  public List<Item> Inventory { get; set; } = inventory;
+  public List<Companion> Companions { get; set; } = companions;
+  public List<Achievement> Achievements { get; set; } = achievements;
+  public required int Money { get; set; } = money;
 }
