@@ -10,10 +10,10 @@ public class Character(
   int money = 500)
 {
   public required string Name { get; set; } = name;
+  public required int Money { get; set; } = money;
+  public required int Level { get; set; } = level;
   public int Xp { get; set; } = xp;
-  public int Level { get; set; } = level;
   public List<Item> Inventory { get; set; } = inventory;
   public List<Companion> Companions { get; set; } = companions;
   public List<Achievement> Achievements { get; set; } = achievements;
-  public required int Money { get; set; } = money;
 }

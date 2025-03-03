@@ -1,13 +1,13 @@
 namespace ConsoleRPG.classes;
 
-public class Ability(string name, string description, string type, int levelReq, int uses, int value, int accuracy)
+public class Ability(string name, string description, string type, int levelReq, int uses, int power, int accuracy)
 {
   public string Name { get; set; } = name;
   public string Description { get; set; } = description;
   public string Type { get; set; } = type;
   public int LevelReq { get; set; } = levelReq;
   public int Uses { get; set; } = uses;
-  public int Value { get; set; } = value;
+  public int Power { get; set; } = power;
   public int Accuracy { get; set; } = accuracy;
 }
 
