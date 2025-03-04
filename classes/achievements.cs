@@ -1,3 +1,5 @@
+namespace ConsoleRPG.classes;
+
 public class Achievement(string name, string description, bool unlock = false)
 {
   public string Name { get; set; } = name;
